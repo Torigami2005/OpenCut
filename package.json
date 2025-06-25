@@ -9,13 +9,14 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build",
+    "dev": "node init && turbo run dev",
+    "build": "node init && turbo run build",
     "check-types": "turbo run check-types",
     "lint": "turbo run lint",
     "format": "turbo run format"
   },
   "dependencies": {
-    "next": "^15.3.4"
+    "next": "^15.3.4",
+    "wavesurfer.js": "^7.9.8"
   }
 }
